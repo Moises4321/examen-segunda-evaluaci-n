@@ -1,0 +1,76 @@
+body{
+    background-color: skyblue;
+}
+h2.titulo{
+    color: orange;
+    text-align: center;
+    font-size: 300%;
+    t
+
+}
+div.rojo{
+    background-color: red;
+    position: relative;
+    width: 100%;
+}
+
+p.alicante{
+    position: relative;
+    margin-left: 25%;
+}
+div.amarillo{
+    background-color: yellow;
+    position: relative;
+    width: 100%;
+}
+p.valencia{
+    position: relative;
+    text-align: center;
+
+}
+div.rosa{
+    background-color:salmon;
+    position: relative;
+    width: 100%;
+}
+p.castellon{
+    position: relative;
+    margin-left: 75%;
+
+}
+p.pies{
+    color: blue;
+    text-align: center;
+    background-color: white;
+    height:30px ;
+}
+span.moises{
+    color: red;
+}
+div.blanco2{
+    background-color: white;
+}
+p.azulletra{
+    color: blue;
+}
+div.rosita{
+    background-color: salmon;
+    position: relative;
+    float: left;
+}
+ 
+
+p.texto{
+    background-color: blue;
+    color: white;
+    font-size: 180%;
+    font-family: "DotGothic16";
+    
+}
+div.azulito{
+    background-color: skyblue;
+    
+}
+div.separar{
+    clear: both;
+}
