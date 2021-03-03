@@ -67,13 +67,13 @@ div.rosita{
 p.texto{
     background-color: blue;
     color: white;
-    font-size: 180%;
+    font-size: 160%;
     font-family: "DotGothic16";
     
 }
 div.azulito{
     background-color: skyblue;
-    
+   
 }
 div.separar{
     clear: both;
