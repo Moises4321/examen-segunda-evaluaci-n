@@ -10,6 +10,13 @@
     <link rel = "preconnect" href = "https://fonts.gstatic.com">
 <link href = "https://fonts.googleapis.com/css2? family = DotGothic16 & display = swap" rel = "hoja de estilo ">
 
+<script>
+    function  name ( )  {
+  var  nom  =  documento . getElementById ( "nombre" ) . valor ;
+  alert  ( Has elegido la ciudad de  +  nom )
+}
+</script>
+
 </head>
 <body>
     <header>
@@ -23,7 +30,7 @@
         <p class="azulletra">Introduce la ciudad más bonita de La comunidad de Valencia</p>
 
         <form action="resultados.php" method="post"><p class="azulletra">
-            Ciudad <input type="text" name="ciudad" id="city">
+            Ciudad <input type="text" name="ciudad" id="city" onblur="name()">
 
         </p></form>
 
@@ -35,7 +42,7 @@
                 <br>
                 <input type="text" name="nombre">
             </p>
-            <p>Año de nacimiento <input type="number" name="numero" id="edad"></p>
+            <p>Año de nacimiento <input type="date" name="numero" id="edad"></p>
 
             <p>
                 Sexo:
